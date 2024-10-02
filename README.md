@@ -1,4 +1,5 @@
 🌀 ScrambleMania: The Fun Word Jumble Game! 🐾
+
 Welcome to ScrambleMania, the cutest and most brain-tickling word jumble game! 🎉✨ Ready to flex your word-solving muscles and have some fun? Let’s get started! 🧩
 
 📖 What's This About?
