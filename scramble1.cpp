@@ -67,9 +67,11 @@ int main() {
         int g = words.length();
 
         cout << "Length of the word: " << words.length() << endl;
+       while(true){
         while (g) {
             int num = rand() % g;
             int num1 = rand() % g;
+
             if (num1 != num) {
                 temp = words[num];
                 words[num] = words[num1];
@@ -77,7 +79,10 @@ int main() {
             }
             g--;
         }
-
+        if(new1!=words){
+             break;
+        }
+        }
         cout << "Your jumbled word is: " << words << "\nHint: " << hints << "\nEnter your correct word: " << endl;
         int i = 3;  // Max attempts to guess
         while (i) {
